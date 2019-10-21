@@ -1,0 +1,294 @@
+************************************************************
+*	PROGRAMMED BY : Ramon Amini
+*	STUDENT ID    : 1086060
+*	CLASS         : M/W - 5pm
+*	EXTRA CREDIT  : Skip List
+************************************************************
+/******************************************************************************
+ *  EXTRA CREDIT - Skip List
+ * ----------------------------------------------------------------------------
+ *  This Program:
+ * 	Implements a dictionary using a skip list. After inputting the data.
+ *  It outputs each level of the skip list and their corresponding keys and
+ *  values.
+ *-----------------------------------------------------------------------------
+******************************************************************************/
+
+*******************************************************************
+Using the IsEmpty() Method
+*******************************************************************
+The Skip List Is Empty
+
+*******************************************************************
+Using the Size() Method
+*******************************************************************
+The Size of The SkipList is: 0
+
+TRUE/FALSE of Pseudo Level Generator: False False True
+The Pseudo Random Number Generator decided to insert the Node into Level 2
+Successfully Inserted (18, Laguna Niguel)
+
+TRUE/FALSE of Pseudo Level Generator: False False True
+The Pseudo Random Number Generator decided to insert the Node into Level 2
+Successfully Inserted (41, Mission Viejo)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (22, San Clemente)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (44, Irvine)
+
+*******************************************************************
+Successfully deleted key 41
+*******************************************************************
+
+TRUE/FALSE of Pseudo Level Generator: False True
+The Pseudo Random Number Generator decided to insert the Node into Level 1
+Successfully Inserted (58, Lake Forest)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (32, San Diego)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (49, Anaheim)
+
+*******************************************************************
+Successfully deleted key 58
+*******************************************************************
+
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (31, Los Angeles)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (17, Orange)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (72, Palm Springs)
+
+TRUE/FALSE of Pseudo Level Generator: False False True
+The Pseudo Random Number Generator decided to insert the Node into Level 2
+Successfully Inserted (41, Riverside)
+
+*******************************************************************
+Successfully deleted key 72
+*******************************************************************
+
+TRUE/FALSE of Pseudo Level Generator: False False True
+The Pseudo Random Number Generator decided to insert the Node into Level 2
+Successfully Inserted (19, Brea)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (60, Santa Ana)
+
+TRUE/FALSE of Pseudo Level Generator: False True
+The Pseudo Random Number Generator decided to insert the Node into Level 1
+Successfully Inserted (35, Tustin)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (103, Ocean Side)
+
+TRUE/FALSE of Pseudo Level Generator: False True
+The Pseudo Random Number Generator decided to insert the Node into Level 1
+Successfully Inserted (11, La Jolla)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (18, Del Mar)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (22, Aliso Viejo)
+
+TRUE/FALSE of Pseudo Level Generator: False True
+The Pseudo Random Number Generator decided to insert the Node into Level 1
+Successfully Inserted (49, Laguna Beach)
+
+*******************************************************************
+Successfully deleted key 41
+*******************************************************************
+
+TRUE/FALSE of Pseudo Level Generator: False True
+The Pseudo Random Number Generator decided to insert the Node into Level 1
+Successfully Inserted (42, Vista)
+
+TRUE/FALSE of Pseudo Level Generator: False False True
+The Pseudo Random Number Generator decided to insert the Node into Level 2
+Successfully Inserted (49, San Diego)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (99, San Juan)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (29, Dana Point)
+
+TRUE/FALSE of Pseudo Level Generator: True
+The Pseudo Random Number Generator decided to insert the Node into Level 0
+Successfully Inserted (88, El Segundo)
+
+TRUE/FALSE of Pseudo Level Generator: False True
+The Pseudo Random Number Generator decided to insert the Node into Level 1
+Successfully Inserted (41, San Clemente)
+
+TRUE/FALSE of Pseudo Level Generator: False False True
+The Pseudo Random Number Generator decided to insert the Node into Level 2
+Successfully Inserted (62, Laguna Hills)
+
+*******************************************************************
+*****Skip List*****
+*******************************************************************
+
+Level 0: | (11, La Jolla) || (17, Orange) || (18, Laguna Niguel) || (18, Del Mar) || (19, Brea) || (22, San Clemente) ||
+     (22, Aliso Viejo) || (29, Dana Point) || (31, Los Angeles) || (32, San Diego) || (35, Tustin) || (41, San Clemente) ||
+       (42, Vista) || (44, Irvine) || (49, Anaheim) || (49, Laguna Beach) || (49, San Diego) || (60, Santa Ana) ||
+(62, Laguna Hills) || (88, El Segundo) || (99, San Juan) || (103, Ocean Side) |
+
+Level 1: | (11, La Jolla) || (18, Laguna Niguel) || (19, Brea) || (35, Tustin) || (41, San Clemente) || (42, Vista) ||
+       (49, Laguna Beach) || (49, San Diego) || (62, Laguna Hills) |
+
+Level 2: | (18, Laguna Niguel) || (19, Brea) || (49, San Diego) || (62, Laguna Hills) |
+
+*******************************************************************
+*****Bucket List*****
+*******************************************************************
+Level 0:
+Bucket #0       Key: 11
+Bucket #1       Key: 17
+Bucket #2       Key: 18
+Bucket #3       Key: 18
+Bucket #4       Key: 19
+Bucket #5       Key: 22
+Bucket #6       Key: 22
+Bucket #7       Key: 29
+Bucket #8       Key: 31
+Bucket #9       Key: 32
+Bucket #10      Key: 35
+Bucket #11      Key: 41
+Bucket #12      Key: 42
+Bucket #13      Key: 44
+Bucket #14      Key: 49
+Bucket #15      Key: 49
+Bucket #16      Key: 49
+Bucket #17      Key: 60
+Bucket #18      Key: 62
+Bucket #19      Key: 88
+Bucket #20      Key: 99
+Bucket #21      Key: 103
+
+
+Level 1:
+Bucket #0       Key: 11
+Bucket #1       Key: 18
+Bucket #2       Key: 19
+Bucket #3       Key: 35
+Bucket #4       Key: 41
+Bucket #5       Key: 42
+Bucket #6       Key: 49
+Bucket #7       Key: 49
+Bucket #8       Key: 62
+
+
+Level 2:
+Bucket #0       Key: 18
+Bucket #1       Key: 19
+Bucket #2       Key: 49
+Bucket #3       Key: 62
+
+*******************************************************************
+Using the IsEmpty() Method
+*******************************************************************
+The Skip List Is Not Empty
+
+*******************************************************************
+Using the Size() Method
+*******************************************************************
+The Size of The SkipList is: 22
+
+*******************************************************************
+Using Begin() Method That Returns an Iterator To The Beginning
+*******************************************************************
+(11, La Jolla)
+
+*******************************************************************
+Using END() Method That Returns an Iterator To The End
+*******************************************************************
+(103, Ocean Side)
+
+*******************************************************************
+Using the FindAll() Function
+*******************************************************************
+Found Keys: (49, Anaheim) (49, Laguna Beach)
+
+*******************************************************************
+Deleting A Node Using The DeleteElementUsingIterator Method
+*******************************************************************
+Successfully deleted key 19
+
+*******************************************************************
+*****Skip List*****
+*******************************************************************
+
+Level 0: | (11, La Jolla) || (17, Orange) || (18, Laguna Niguel) || (18, Del Mar) || (22, San Clemente) ||
+        (22, Aliso Viejo) || (29, Dana Point) || (31, Los Angeles) || (32, San Diego) || (35, Tustin) ||
+        (41, San Clemente) || (42, Vista) || (44, Irvine) || (49, Anaheim) || (49, Laguna Beach) || (49, San Diego) ||
+        (60, Santa Ana) || (62, Laguna Hills) || (88, El Segundo) || (99, San Juan) || (103, Ocean Side) |
+
+Level 1: | (11, La Jolla) || (18, Laguna Niguel) || (35, Tustin) || (41, San Clemente) || (42, Vista) ||
+       (49, Laguna Beach) || (49, San Diego) || (62, Laguna Hills) |
+
+Level 2: | (18, Laguna Niguel) || (49, San Diego) || (62, Laguna Hills) |
+
+*******************************************************************
+*****Bucket List*****
+*******************************************************************
+
+Level 0:
+Bucket #0       Key: 11
+Bucket #1       Key: 17
+Bucket #2       Key: 18
+Bucket #3       Key: 18
+Bucket #4       Key: 22
+Bucket #5       Key: 22
+Bucket #6       Key: 29
+Bucket #7       Key: 31
+Bucket #8       Key: 32
+Bucket #9       Key: 35
+Bucket #10      Key: 41
+Bucket #11      Key: 42
+Bucket #12      Key: 44
+Bucket #13      Key: 49
+Bucket #14      Key: 49
+Bucket #15      Key: 49
+Bucket #16      Key: 60
+Bucket #17      Key: 62
+Bucket #18      Key: 88
+Bucket #19      Key: 99
+Bucket #20      Key: 103
+
+
+Level 1:
+Bucket #0       Key: 11
+Bucket #1       Key: 18
+Bucket #2       Key: 35
+Bucket #3       Key: 41
+Bucket #4       Key: 42
+Bucket #5       Key: 49
+Bucket #6       Key: 49
+Bucket #7       Key: 62
+
+
+Level 2:
+Bucket #0       Key: 18
+Bucket #1       Key: 49
+Bucket #2       Key: 62
